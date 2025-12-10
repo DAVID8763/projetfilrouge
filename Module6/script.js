@@ -58,12 +58,43 @@ if (cartMessageElement) {
 console.log("carteMessageElement");
 
 
-let productNames = ["product1"; "product2"; "product3"];
-let productPriceHT = [1,5;]
+let productNames = ["pull"; "t shirt"; "jeans"];
+
+
+let productPriceHT = [50,60,80];
+function afficherproduitconsole() {
+  productNames.forEach{(element,index) =>
+    const priceHT = productPriceHt{index};
+    const pricettc = calculatePriceTTC(priceHT);
+    const formattedPrice = formatPrice(pricettc);
+    console.log('produit:${index+1}-nom:${element}- prix:${formattedPrice} TTC');
+
+  }};
+afficherproduitconsole();
+
+console.log("Voici la taille des produits : ", productNames.length);
+
+
 let console.log(Function displayProductsInConsole);
 console.log(productNames.length);
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
   productNames[0] = zoo
-  
+  function 
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
